@@ -1,0 +1,55 @@
+{
+    "build": {
+        "appId": "checkers.thesunshining",
+        "productName": "Sun Checkers"
+    },
+    "name": "sun-checkers",
+    "version": "0.0.1",
+    "description": "A bright checkerboard that has checker pieces that you can move anywhere.",
+    "main": "main.js",
+    "homepage": "http://thsunshining.nft/",
+    "license": "MIT",
+    "maintainers": [
+        "NCR",
+        "The SunShining"
+    ],
+    "author": "The SunShining <thesunshining@gmail.com> (http://thsunshining.nft/)",
+    "keywords": [
+        "Checkers",
+        "Checkerboard"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.com/Sunny-Stuff/sun-checkers-app.git"
+    },
+    "devDependencies": {
+        "electron": "^22.1.0",
+        "electron-builder": "^23.6.0"
+    },
+    "scripts": {
+        "start": "electron .",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder",
+        "deb": "electron-builder --linux deb",
+        "deb:x64": "electron-builder --linux deb:x64",
+        "deb:arm64": "electron-builder --linux deb:arm64",
+        "rpm": "electron-builder --linux rpm",
+        "AppImage": "electron-builder --linux AppImage",
+        "snap": "electron-builder --linux snap",
+        "snap:x64": "electron-builder --linux snap:x64",
+        "snap:arm64": "electron-builder --linux snap:arm64",
+        "apk": "electron-builder --linux apk",
+        "appx": "electron-builder --windows appx",
+        "nsis": "electron-builder --win nsis",
+        "nsis:x64": "electron-builder --win nsis:x64",
+        "nsis:arm64": "electron-builder --win nsis::arm64",
+        "nsis:ia32": "electron-builder --win nsis:ia32",
+        "nsis-web": "electron-builder --win nsis-web",
+        "dmg": "electron-builder --mac dmg",
+        "dmg:arm64": "electron-builder --mac dmg:arm64"
+    },
+    "dependencies": {
+        "electron-context-menu": "^3.6.1"
+    },
+    "packageManager": "yarn@3.3.1"
+}
