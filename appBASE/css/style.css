@@ -12,6 +12,9 @@ body {
     border: 3px solid black;
     border-radius: 20px;
 }
+.navLINK:hover {
+    border: 3px solid blue;
+}
 nav {
     position: absolute;
     /* top: 0px; */
