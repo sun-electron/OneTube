@@ -1,2 +1,16 @@
-
 .DS_Store
+
+node_modules/
+dist/
+yarn-error.log
+
+.yarn/*
+!.yarn/cache/*
+!.yarn/releases/*
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+.yarn/plugins/@yarnpkg/plugin-interactive-tools.cjs
+.yarnrc.yml
+yarn.lock

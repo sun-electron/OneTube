@@ -18,27 +18,27 @@
     <body>
         <!-- <header><h1>Title/Header :: Blank Blank</h1></header> -->
         <nav>
-            <img src="img/shapeICONS/OneTube V.png"/>
-            <img src="img/shapeICONS/OneTube M.png"/>
-            <img src="img/shapeICONS/OneTube S.png"/>
+            <img class="navLINK" id="YTvideoLINK" src="img/shapeICONS/OneTube V.png"/>
+            <img class="navLINK" id="YTmusicLINK" src="img/shapeICONS/OneTube M.png"/>
+            <img class="navLINK" id="YTstudioLINK" src="img/shapeICONS/OneTube S.png"/>
         </nav>
         <article>
 
-            <section>
-                <iframe src="https://www.youtube.com//webhp?igu=1"></iframe>
+            <section id="YTvideo">
+                <webview class="YTview" src="https://www.youtube.com/"></webview>
             </section>
 
-            <section>
-                <iframe src="https://www.studio.youtube.com/"></iframe>
+            <section id="YTmusic">
+                <webview class="YTview" src="https://music.youtube.com/"></webview>
             </section>
 
-            <section>
-                <iframe src="https://www.music.youtube.com/"></iframe>
+            <section id="YTstudio">
+                <webview class="YTview" src="https://studio.youtube.com/"></webview>
             </section>
 
-            <section>
-                <iframe src="https://www.google.com/webhp?igu=1"></iframe>
-            </section>
+            <!-- <section>
+                <webview id="webview" src="https://www.google.com/"></webview>
+            </section> -->
             
 
         </article>

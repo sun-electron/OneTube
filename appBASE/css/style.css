@@ -1,26 +1,56 @@
 body {
-    padding: 0px;
     margin: 0px;
-    padding-left: 50px;
-    overflow-x: hidden;
+    padding: 0px;
     background-color: lightcoral;
 }
-img {
+
+/* The Nav */
+
+.navLINK {
     max-width: 100%;
+    width: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
 }
 nav {
-    position: fixed;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    width: 40px;
-    /* border: 5px solid black;     */
+    position: absolute;
+    /* top: 0px; */
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    /* height: 40px; */
+    padding: 4px;
+    /* padding-top: 50px; */
+    /* border: 5px solid black; */
+    background-color: antiquewhite;
+    border-radius: 20px;
+    text-align: center;
 }
 
-iframe {
-    width: 100%;
-    height: 100vh;
-    margin: 0px;
-    padding: 0px;
+
+
+
+.YTview {
     border-radius: 20px;
+    border: 7px solid white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 100px;
+}
+
+
+/* The Youtube Windows section */
+
+#YTvideo {
+    display: block;
+}
+
+#YTmusic {
+    display: none;
+}
+
+#YTstudio {
+    display: none;
 }

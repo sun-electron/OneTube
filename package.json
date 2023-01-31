@@ -1,11 +1,11 @@
 {
     "build": {
-        "appId": "checkers.thesunshining",
-        "productName": "Sun Checkers"
+        "appId": "onetube.thesunshining",
+        "productName": "OneTube"
     },
-    "name": "sun-checkers",
+    "name": "onetube",
     "version": "0.0.1",
-    "description": "A bright checkerboard that has checker pieces that you can move anywhere.",
+    "description": "Easy access to YouTube, YouTube Studio, and YouTube Music",
     "main": "main.js",
     "homepage": "http://thsunshining.nft/",
     "license": "MIT",
@@ -15,12 +15,12 @@
     ],
     "author": "The SunShining <thesunshining@gmail.com> (http://thsunshining.nft/)",
     "keywords": [
-        "Checkers",
-        "Checkerboard"
+        "YouTube",
+        "OneTube"
     ],
     "repository": {
         "type": "git",
-        "url": "https://gitlab.com/Sunny-Stuff/sun-checkers-app.git"
+        "url": "https://github.com/sun-electron/OneTube.git"
     },
     "devDependencies": {
         "electron": "^22.1.0",

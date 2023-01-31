@@ -10,7 +10,12 @@ app.on('ready', async () => {
     const mainWindow = new BrowserWindow({
         minimizable: true,
         width: 1920,
-        height: 1080
+        height: 1080,
+        webPreferences: {
+          nodeIntegration: true,
+          enableRemoteModule: true,
+          webviewTag: true
+        }
     })
 
     mainWindow.loadFile('appBASE/index.html')
