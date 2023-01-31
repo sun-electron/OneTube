@@ -4,7 +4,7 @@
         "productName": "OneTube"
     },
     "name": "onetube",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "Easy access to YouTube, YouTube Studio, and YouTube Music",
     "main": "main.js",
     "homepage": "http://thsunshining.nft/",

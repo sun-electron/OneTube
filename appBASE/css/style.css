@@ -42,6 +42,9 @@ nav {
     right: 20px;
     bottom: 100px;
 }
+.MUSICview {
+    border: 7px solid black;
+}
 
 
 /* The Youtube Windows section */

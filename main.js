@@ -22,8 +22,6 @@ app.on('ready', async () => {
     mainWindow.removeMenu()
 
 
-
-
 })
 
 
