@@ -50,8 +50,19 @@ const template = [
     submenu: [
       { role: 'reload' },
       { type: 'separator' },
-      { role: 'toggleDevTools' },
-      { role: 'togglefullscreen' }
+      { role: 'minimize'},
+      { role: 'togglefullscreen' },
+      { type: 'separator' },
+      { role: 'toggleDevTools' }
+    ]
+  }] : []),
+
+  // { role: 'editMenu' }
+  ...(isMac ? [{
+    label: 'Edit',
+    submenu: [
+      { role: 'copy' },
+      { role: 'selectAll' }
     ]
   }] : [])
 
@@ -63,17 +74,3 @@ Menu.setApplicationMenu(menu)
 
 
 
-
-// Right Click Menu using - "electron-context-menu": "^2.3.0"
-const contextMenu = require('electron-context-menu');
-contextMenu({
-  menu: (actions, props, browserWindow) => [
-
-    { role: 'reload' },
-    { type: 'separator' },
-    { role: 'minimize'},
-    { role: 'togglefullscreen' },
-    { role: 'close' }
-
-  ]
-});
