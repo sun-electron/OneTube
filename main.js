@@ -62,7 +62,8 @@ const template = [
     label: 'Edit',
     submenu: [
       { role: 'copy' },
-      { role: 'selectAll' }
+      { role: 'selectAll' },
+      { role: 'paste'}
     ]
   }] : [])
 
